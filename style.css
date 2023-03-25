@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family= Poppins & display=swap');
+
+/*font-family: 'Poppins', sans-serif;*/
+
+body {
+    background-color: #1c1c1c;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 3em;
+    margin-bottom: -1%;
+}
+
+.calculadora {
+    width: 30%;
+    height: 40%;
+    margin: 50px auto;
+    border: 3px solid #000;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px #FFF;
+}
+
+.display {
+    background-color: #FFF;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid #000;
+}
+
+input {
+    width: 85%;
+    height: 50px;
+    text-align: right;
+    font-size: 3em;
+    border: 1px solid #000;
+    margin: 10px;
+
+}
+
+.botoes {
+    padding: 10px;
+    background-color: #FFF;
+    text-align: center;
+}
+
+button {
+    font-size: 2em;
+    padding: 20px 30px;
+    margin: 8px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px #CCC;
+    background-color: #FFF;
+    color: #333;
+    margin-bottom: 6%;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #CCC;
+}
+
+.operador {
+    background-color: #023f81;
+    color: #FFF;
+}
+
+.operador:hover {
+    background-color: #0158b4;
+}
+
+.igual {
+    background-color: #0b6900;
+    color: #FFF;
+  }
+  
+  .igual:hover {
+    background-color: #119102;
+  }
+
+  .limpar {
+    background-color: #ba0000;
+    color: #FFF;
+  }
+  
+  .limpar:hover {
+    background-color: #fa2d2d;
+  }
