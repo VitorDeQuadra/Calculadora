@@ -15,8 +15,8 @@ h1 {
 }
 
 .calculadora {
-    width: 30%;
-    height: 40%;
+    width: 500px;
+    height: 400px;
     margin: 50px auto;
     border: 3px solid #000;
     border-radius: 5px;
